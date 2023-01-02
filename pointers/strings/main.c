@@ -17,5 +17,6 @@ int main(void)
    a[5] = 'l';
    printf("%c%c%c%c%c%c\n", a[0], a[1], a[2], a[3],
               a[4], a[5]);
+   printf("%s\n", a);
    return (0);
 }

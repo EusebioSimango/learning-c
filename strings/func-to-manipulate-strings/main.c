@@ -16,6 +16,7 @@ int main(void)
     printf("str3: %s\n", str3);  // Outputs "Hello, world!"
 
     // Compare str1 and str3
+    // It returns 0 if the strings are equals
     if (strcmp(str1, str3) == 0) {
         printf("str1 and str3 are equal\n");
     } else {
